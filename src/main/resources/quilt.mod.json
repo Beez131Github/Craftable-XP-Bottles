@@ -2,22 +2,20 @@
     "schema_version": 1,
     "quilt_loader": {
         "group": "${group}",
-        "id": "betr_table",
+        "id": "craftable_xp",
         "version": "${version}",
         "metadata": {
-            "name": "Better Enchant Table",
-            "description": "Improves the enchantment table to be more balanced compared to villagers",
+            "description": "Adds craftable XP bottles as a alternative to cleric villagers",
             "contributors": {
-							"Beez131": "Owner/Developer",
-							"supersaiyansubtlety": "Helper"
+							"Beez131": "Owner/Developer"
             },
             "contact": {},
-            "icon": "assets/betr_table/icon.png",
+            "icon": "assets/craftable_xp/icon.png",
             "license": "MIT"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "main": "io.github.beez131github.betr_table.BetrTable"
+            "main": "io.github.beez131github.craftable_xp.craftable_xp"
         },
         "depends": [
             {
@@ -30,5 +28,5 @@
             }
         ]
     },
-    "mixin": "betr_table.mixins.json"
+    "mixin": "craftable_xp.mixins.json"
 }
