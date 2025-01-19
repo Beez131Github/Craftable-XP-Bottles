@@ -5,7 +5,7 @@
         "id": "craftable_xp",
         "version": "${version}",
         "metadata": {
-						"name": "Cratable XP bottles",
+						"name": "Craftable XP bottles",
             "description": "Adds craftable XP bottles as a alternative to cleric villagers",
             "contributors": {
 							"Beez131": "Owner/Developer"
